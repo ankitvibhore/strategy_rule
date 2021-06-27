@@ -1,0 +1,8 @@
+[
+  {
+    "name":"email-offer-rule",
+    "rule-type": "offer-strategy-rule",
+    "priority": 1,
+    "rule-consists": []
+  }
+]

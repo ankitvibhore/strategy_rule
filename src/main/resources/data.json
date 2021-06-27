@@ -1,0 +1,21 @@
+[
+  {
+    "rule_id": "rule_id",
+    "rule_name": "rule_name",
+    "condition": "condition",
+    "action": "priority",
+    "priority":2,
+    "description": "description",
+    "rule_namespace": "rule_namespace",
+    "expression": "isCarePlanEnabled == true || isFRPEnabled == true"
+  },
+  {
+    "rule_id": "rule_id1",
+    "rule_name": "rule_name",
+    "condition": "condition",
+    "action": "priority",
+    "priority":1,
+    "description": "description",
+    "rule_namespace": "rule_namespace"
+  }
+]

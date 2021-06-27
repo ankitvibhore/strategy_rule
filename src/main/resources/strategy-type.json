@@ -1,0 +1,37 @@
+[
+  {
+    "name": "W11",
+    "compositeRuleType": "strategy",
+    "priority": 1,
+    "composingRules": [
+      {
+        "name": "A",
+        "condition": "account.day = 3",
+        "actions": [
+          "offer.strategy = A"
+        ]
+      },
+      {
+        "name": "T1",
+        "condition": "account.day = 4",
+        "actions": [
+          "offer.strategy = T1"
+        ]
+      },
+      {
+        "name": "A2",
+        "condition": "account.day = 5",
+        "actions": [
+          "offer.strategy = A2"
+        ]
+      },
+      {
+        "name": "Z",
+        "condition": "account.day = 8",
+        "actions": [
+          "offer.strategy = Z"
+        ]
+      }
+    ]
+  }
+]
